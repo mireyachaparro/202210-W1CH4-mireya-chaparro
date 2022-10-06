@@ -3,7 +3,8 @@
     "version": "1.0.0",
     "description": "Maqueta con HTML y CSS las capturas adjuntas (mobile y desktop), teniendo en cuenta las siguientes especificaciones:",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "sass": "sass sass:css --watch"
     },
     "repository": {
         "type": "git",
@@ -15,6 +16,11 @@
     "bugs": {
         "url": "https://github.com/mireyachaparro/202210-W1CH4-mireya-chaparro/issues"
     },
-    "homepage": "https://github.com/mireyachaparro/202210-W1CH4-mireya-chaparro#readme"
+    "homepage": "https://github.com/mireyachaparro/202210-W1CH4-mireya-chaparro#readme",
+    "devDependencies": {
+        "sass": "^1.55.0"
+    },
+    "prettier": {
+        "singleQuote": true
+    }
 }
-

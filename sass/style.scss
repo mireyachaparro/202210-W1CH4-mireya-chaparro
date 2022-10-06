@@ -1,0 +1,144 @@
+@use 'variables';
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300&family=Montserrat:wght@100;300&family=Nunito:wght@300&display=swap');
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    min-height: 100vh;
+    font-family: variables.$font-family-primary;
+    font-weight: 700;
+}
+
+header,
+main {
+    padding-inline: 20px;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    box-shadow: 0 10px 10px -10px lightgrey;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navegacion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li {
+    padding-inline: 30px;
+}
+
+li:hover {
+    color: variables.$primary-color;
+}
+
+li:nth-of-type(4) {
+    padding-right: 0;
+}
+
+.logo {
+    width: 3rem;
+}
+
+[value='BUY NOW'] {
+    background-color: inherit;
+    border: 3px solid variables.$primary-color;
+    border-radius: 100px;
+    border-top-left-radius: 0;
+    padding: 10px;
+    font-family: nunito;
+    font-weight: 700;
+}
+
+[value='BUY NOW']:hover {
+    background-color: variables.$primary-color;
+    color: white;
+    border-radius: 100px;
+    border-top-left-radius: 0;
+    padding: 10px;
+    font-family: nunito;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 1rem;
+    color: variables.$primary-color;
+}
+h2 {
+    font-size: 2rem;
+}
+main {
+    flex: 50 0 12vh;
+    padding-top: 4rem;
+    gap: 1rem;
+}
+
+.present {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+[value='VIEW ALL'] {
+    background-color: variables.$primary-color;
+    border: none;
+    color: white;
+    border-radius: 20px;
+    border-top-left-radius: 0;
+    padding: 20px;
+    font-size: 1rem;
+    font-family: nunito;
+    font-weight: 700;
+}
+
+[value='VIEW ALL']:hover {
+    background-color: white;
+    border: 3px solid variables.$primary-color;
+    color: variables.$primary-color;
+    border-radius: 20px;
+    border-top-left-radius: 0;
+    padding: 20px;
+    font-size: 1rem;
+    font-family: nunito;
+    font-weight: 700;
+}
+
+.fotos {
+    & > img {
+        width: 400px;
+        border-radius: 30px;
+    }
+}
+.fotos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fotos {
+    img:hover {
+        filter: brightness(80%);
+    }
+}
