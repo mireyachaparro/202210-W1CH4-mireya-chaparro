@@ -1,0 +1,20 @@
+{
+    "name": "202210-w1ch4-mireya-chaparro",
+    "version": "1.0.0",
+    "description": "Maqueta con HTML y CSS las capturas adjuntas (mobile y desktop), teniendo en cuenta las siguientes especificaciones:",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/mireyachaparro/202210-W1CH4-mireya-chaparro.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/mireyachaparro/202210-W1CH4-mireya-chaparro/issues"
+    },
+    "homepage": "https://github.com/mireyachaparro/202210-W1CH4-mireya-chaparro#readme"
+}
+
